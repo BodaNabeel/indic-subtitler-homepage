@@ -3,6 +3,7 @@ import {
   IconFileDownload,
   IconSettingsFilled,
   IconUpload,
+  IconEdit,
 } from "@tabler/icons-react";
 import React from "react";
 import Carousel from "../Carousel";
@@ -12,13 +13,19 @@ export default function Information() {
   const iconMap = {
     0: IconUpload,
     1: IconSettingsFilled,
-    2: IconFileDownload,
+    2: IconEdit,
+    3: IconFileDownload,
   };
-  const feature = ["Upload Video", "Generate Subtitle", "Download .srt/.vtt"];
+  const feature = [
+    "Upload Video",
+    "Generate Subtitle",
+    "Edit Subtitle",
+    "Download .srt/.vtt",
+  ];
   const modes = ["No credit card required", "Nominal Fee", "Cancel Anytime"];
 
   return (
-    <main className="md:mt-36 mt-16 space-y-24">
+    <main className="md:mt-36 mt-16 space-y-24 md:px-20 px-2 ">
       <section>
         <h2 className="text-center text-3xl md:text-5xl font-medium underline decoration-8 underline-offset-[14px] decoration-primary-color">
           How it works

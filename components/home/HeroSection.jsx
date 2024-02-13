@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <section className="md:mt-36 mt-16 flex  justify-between lg:justify-center lg:gap-56 items-center">
-      <div className="md:w-[40%] space-y-6">
+      <div className="md:w-[40%] space-y-6 md:px-20 px-2 ">
         <h1 className="text-5xl font-medium">
           Only Open Source subtitle generator for{" "}
           <span className="text-primary-color">Indic Languages</span>

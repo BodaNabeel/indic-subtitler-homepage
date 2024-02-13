@@ -5,13 +5,11 @@ import Information from "@/components/home/Information";
 
 export default function Home() {
   return (
-    <>
-      <main className="md:mx-20 mx-2 ">
-        <Header />
-        <HeroSection />
-        <Information />
-      </main>
+    <main className="">
+      <Header />
+      <HeroSection />
+      <Information />
       <Footer />
-    </>
+    </main>
   );
 }
